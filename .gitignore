@@ -1,0 +1,15 @@
+.env
+backend/.venv/
+backend/.pytest_cache/
+**/__pycache__/
+*.py[cod]
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+storage/private/*
+!storage/private/.gitkeep
+private-media/*
+
+# Local private media and generated files
+private-media/
+frontend/*.tsbuildinfo
