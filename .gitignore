@@ -13,3 +13,10 @@ private-media/*
 # Local private media and generated files
 private-media/
 frontend/*.tsbuildinfo
+.env.*
+!.env.example
+!.env.*.example
+
+.vercel/
+.DS_Store
+Thumbs.db
