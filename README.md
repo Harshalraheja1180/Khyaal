@@ -1,6 +1,41 @@
-# MemoryCare
+# Khyaal
 
-MemoryCare is a full-stack care support MVP for older adults, people who want memory-friendly support, and their guardians. The interface supports daily routines, familiar photos, simple questions and games, trusted contacts, private wellbeing check-ins, optional location sharing, and care reports. Games and questions are for engagement and orientation; they are not medical tests or diagnoses.
+**Everyday Support, Made Personal**
+
+Khyaal is a full-stack caregiving and everyday support platform designed to help guardians and dependents stay connected through personalized care routines, memory support, wellbeing check-ins, and engaging activities.
+
+🌐 **Live Demo:** https://khyaal-pi.vercel.app/  
+💻 **Source Code:** https://github.com/Harshalraheja1180/Khyaal
+
+## Key Features
+
+- **Guardian & Dependent Accounts:** Relationship-based access and sharing permissions.
+- **Care Management:** Medicine plans, daily routines, reminders, and trusted contacts.
+- **Memory Studio:** Personalized memory profiles and familiar content.
+- **Quiz Studio:** Custom quizzes and interactive learning.
+- **Games:** Five casual memory and pattern-based games.
+- **Daily Wellbeing:** Private, non-clinical wellbeing check-ins.
+- **Guardian Reports:** Shared activity and wellbeing summaries.
+- **Location Sharing:** Optional, user-controlled location sharing.
+
+## Tech Stack
+
+| Layer | Technologies |
+|---|---|
+| Frontend | Next.js, React, TypeScript |
+| Backend | Python, FastAPI |
+| Database | PostgreSQL |
+| ORM | SQLAlchemy |
+| Migrations | Alembic |
+| Frontend Hosting | Vercel |
+| Backend Hosting | Render |
+| Database Hosting | Neon PostgreSQL |
+
+## Architecture
+
+Browser → Next.js Frontend → FastAPI REST API → SQLAlchemy → PostgreSQL
+
+The frontend communicates with the backend through authenticated API requests. Database access and permission validation are handled server-side.
 
 ## What is running
 
